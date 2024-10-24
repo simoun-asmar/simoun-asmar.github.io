@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Simoun The Analyst Portfolio</title>
@@ -11,169 +6,157 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- Adding Flexbox styling directly for the 'posts' section -->
+		<style>
+			.posts {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			.posts article {
+				width: 48%; /* Two articles side by side */
+				margin-bottom: 2rem; /* Adds space between rows */
+			}
+			/* For smaller screens, the articles will stack */
+			@media (max-width: 768px) {
+				.posts article {
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This website is currently under development. More content and updates will be added soon, so stay tuned!<br />
-						</h1>
-						<p>Data Analyst skilled in SQL, Python, Tableau, and spreadsheets. Explore my projects where I turn data into actionable insights through analysis and visualization.
-						</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a></a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/simounasmar/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/simoun-asmar" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="https://github.com/simoun-asmar/unicorn-project" target="_blank">Unicorn Project<br />
-									</a></h2>
-									<p>This project includes SQL queries, spreadsheet analysis, and a Tableau dashboard<br />
-										created to explore and answer key business questions using the Unicorn dataset,<br />
-										discovering insights and providing recommendations.</p>
-								</header>
-								<a href="https://github.com/simoun-asmar/unicorn-project" class="image main" target="_blank"><img src="images/Unicorn-Image.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/simoun-asmar/unicorn-project" class="button large" target="_blank">View Project</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://public.tableau.com/app/profile/simoun.asmar/vizzes" target="_blank" >Tableau Projects<br />
-										</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/simoun.asmar/vizzes" class="image fit" target="_blank" ><img src="images/Tableau-Logo-700x394.png" alt="" /></a>
-									<p>Explore my Tableau Public portfolio for interactive dashboards and visualizations, showcasing my skills in Tableau, SQL, and data analysis.</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/simoun.asmar/vizzes" class="button" target="_blank">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date"></span>
-										<h2><a href="https://github.com/simoun-asmar/meta-database-queries" target="_blank">Data cleaning<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/simoun-asmar/meta-database-queries" class="image fit" target="_blank"><img src="images/Data-Cleaner.png" alt="" /></a>
-									<p>Data cleaning and analysis focusing on standardizing data, key metrics, financial performance, and customer insights.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/simoun-asmar/meta-database-queries" class="button" target="_blank">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p><a href="#">Düsseldorf, North Rhine-Westphalia, Germany</a></p>
-								<section class="split contact">
-							</section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-								<h3>Email</h3>
-								<p><a href="#">simon.asmar.sy@hotmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/simounasmar/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/simoun-asmar" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
+			<!-- Intro -->
+			<div id="intro">
+				<h1>This website is currently under development. More content and updates will be added soon, so stay tuned!<br /></h1>
+				<p>Data Analyst skilled in SQL, Python, Tableau, and spreadsheets. Explore my projects where I turn data into actionable insights through analysis and visualization.</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
 			</div>
 
+			<!-- Header -->
+			<header id="header">
+				<a></a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">Projects</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/simounasmar/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/simoun-asmar" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Featured Post (This will now align with other posts side by side) -->
+				<section class="posts">
+					<article class="post featured">
+						<header class="major">
+							<h2><a href="https://github.com/simoun-asmar/unicorn-project" target="_blank">Unicorn Project<br /></a></h2>
+							<p>This project includes SQL queries, spreadsheet analysis, and a Tableau dashboard created to explore and answer key business questions using the Unicorn dataset, discovering insights and providing recommendations.</p>
+						</header>
+						<a href="https://github.com/simoun-asmar/unicorn-project" class="image main" target="_blank"><img src="images/Unicorn-Image.png" alt="Unicorn Project" /></a>
+						<ul class="actions special">
+							<li><a href="https://github.com/simoun-asmar/unicorn-project" class="button large" target="_blank">View Project</a></li>
+						</ul>
+					</article>
+
+					<!-- Posts -->
+					<article>
+						<header>
+							<span class="date">April 24, 2017</span>
+							<h2><a href="#">Sed magna<br />ipsum faucibus</a></h2>
+						</header>
+						<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+						<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+						<ul class="actions special">
+							<li><a href="#" class="button">Full Story</a></li>
+						</ul>
+					</article>
+
+					<article>
+						<header>
+							<span class="date">April 22, 2017</span>
+							<h2><a href="#">Primis eget<br />imperdiet lorem</a></h2>
+						</header>
+						<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+						<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+						<ul class="actions special">
+							<li><a href="#" class="button">Full Story</a></li>
+						</ul>
+					</article>
+
+					<article>
+						<header>
+							<h2><a href="https://public.tableau.com/app/profile/simoun.asmar/vizzes" target="_blank" >Tableau Projects<br /></a></h2>
+						</header>
+						<a href="https://public.tableau.com/app/profile/simoun.asmar/vizzes" class="image fit" target="_blank"><img src="images/Tableau-Logo-700x394.png" alt="" /></a>
+						<p>Explore my Tableau Public portfolio for interactive dashboards and visualizations, showcasing my skills in Tableau, SQL, and data analysis.</p>
+						<ul class="actions special">
+							<li><a href="https://public.tableau.com/app/profile/simoun.asmar/vizzes" class="button" target="_blank">View Projects</a></li>
+						</ul>
+					</article>
+
+					<article>
+						<header>
+							<h2><a href="https://github.com/simoun-asmar/meta-database-queries" target="_blank">Data cleaning<br /></a></h2>
+						</header>
+						<a href="https://github.com/simoun-asmar/meta-database-queries" class="image fit" target="_blank"><img src="images/Data-Cleaner.png" alt="Data Cleaning Project" /></a>
+						<p>Data cleaning and analysis focusing on standardizing data, key metrics, financial performance, and customer insights.</p>
+						<ul class="actions special">
+							<li><a href="https://github.com/simoun-asmar/meta-database-queries" class="button" target="_blank">View Project</a></li>
+						</ul>
+					</article>
+				</section>
+
+				<!-- Contact Section -->
+				<section class="split contact">
+					<section class="alt">
+						<h3>Location</h3>
+						<p>Düsseldorf, North Rhine-Westphalia, Germany</p>
+					</section>
+					<section>
+						<h3>Phone</h3>
+						<p>(000) 000-0000</p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="mailto:simon.asmar.sy@hotmail.com">simon.asmar.sy@hotmail.com</a></p>
+					</section>
+					<section>
+						<h3>Social</h3>
+						<ul class="icons alt">
+							<li><a href="https://www.linkedin.com/in/simounasmar/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/simoun-asmar" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						</ul>
+					</section>
+				</section>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul><li>&copy; Simoun Asmar</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+			</div>
+
+		</div>
+
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
