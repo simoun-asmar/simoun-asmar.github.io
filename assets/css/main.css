@@ -4687,3 +4687,74 @@ input, select, textarea {
 		}
 
 	}
+/* Big Project Section */
+.big-project {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: ##717981; /* Matches the light background of other projects */
+    padding: 3rem 1rem;
+    border-radius: 8px; /* Same rounded corners as other sections */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Match shadow intensity */
+}
+
+/* Big Project Image */
+.big-project .post.big img {
+    max-width: 60%; /* Slightly larger size for the image */
+    margin: 1.5rem auto; /* Center the image */
+    display: block;
+    border-radius: 8px; /* Matches other project images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Shadow for images */
+    background-color: #f8f9fa; /* Light placeholder background if no image */
+	
+}
+
+/* Button Styling for Big Project */
+.big-project .actions.special .button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: transparent; /* Same green color as other project buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Matches other button styles */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-decoration: none; /* Remove underline */
+}
+
+.big-project .actions.special .button:hover {
+    background-color: transparent; /* Darker green for hover */
+    transform: translateY(-2px); /* Lift effect for interactivity */
+}
+
+/* Text Styling Consistency */
+.big-project h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Matches heading color */
+    margin-bottom: 0.5rem;
+}
+
+.big-project p {
+    font-size: 1rem;
+    color: #555; /* Matches body text color */
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+/* Preserve the Layout of the Other Projects */
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts article {
+    width: 48%; /* Two projects side by side */
+    margin-bottom: 2rem;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .posts article {
+        width: 100%; /* Stack vertically */
+    }
+}
